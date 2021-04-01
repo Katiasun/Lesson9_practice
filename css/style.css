@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?w3xce0");
+  src: url("../fonts/icomoon.eot?w3xce0#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?w3xce0") format("truetype"),
+    url("../fonts/icomoon.woff?w3xce0") format("woff"),
+    url("../fonts/icomoon.svg?w3xce0#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-screpka:before {
+  content: "\e900";
+}
+.icon-folder:before {
+  content: "\e901";
+}
+.icon-photo:before {
+  content: "\e902";
+}
+.icon-sound:before {
+  content: "\e903";
+}
+.icon-tv:before {
+  content: "\e904";
+}
+@font-face {
+  font-family: "Bazar";
+  src: url("../bazar-webfont.eot");
+  src: url("../bazar-webfont.eot?#iefix") format("embedded-opentype"),
+    url("bazar-webfont.woff2") format("woff2"),
+    url("bazar-webfont.woff") format("woff"),
+    url("../bazar-webfont.ttf") format("truetype"),
+    url("../bazar-webfont.svg#bazarmedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url("img/BG.jpg");
+}
+header {
+  text-align: center;
+  color: ;
+}
+header h1 {
+  font-family: "Bazar" sans-serif;
+  text-transform: uppercase;
+  font-size: 90px;
+
+  text-shadow: 2px 2px 0 white, 4px 4px 0 #393939;
+}
+.separator {
+  font-family: "Roboto Slab" serif;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  line-height: 1;
+  align-items: center;
+}
+.separator::after,
+.separator::before {
+  width: 4px;
+  height: 2px;
+  background: rgb(90, 74, 74);
+  content: "";
+  display: inline-block;
+  margin: 0 4px;
+}
+header h2 {
+}
+.filter {
+  align-items: center;
+  display: flex;
+  margin-bottom: 16px;
+}
+.tags {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+main {
+  font-family: "Roboto Slab" serif;
+  color: black;
+}
+.filter h4 {
+  font-size: 16px;
+  font-weight: 14px;
+}
+.tag {
+  background: white;
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 6px;
+  margin-right: ;
+}
+.card {
+  background: white;
+  border-radius: 4px;
+  width: 100%;
+  padding: 4px;
+  margin-bottom: 20px;
+}
+.card img {
+  width: 100%;
+}
+.icon {
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  background: white;
+  font-size: 24px;
+  color: white;
+  margin: -15px auto 0;
+  border-radius: 50%;
+  z-index: 1;
+  position: relative;
+}
+.card h3 {
+  text-align: center;
+  font-size: 12px;
+}
